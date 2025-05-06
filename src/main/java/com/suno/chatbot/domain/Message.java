@@ -5,8 +5,8 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 
-@Data
 @Entity
+@Data
 public class Message {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
